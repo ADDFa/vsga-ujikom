@@ -1,5 +1,6 @@
-<?php require_once(__DIR__ . "/layouts/header.php") ?>
-<?php require_once(__DIR__ . "/app/data/properti.php") ?>
+<?php require_once(__DIR__ . "/../layouts/header.php") ?>
+<?php require_once(__DIR__ . "/../app/data/properti.php") ?>
+<?php $properti = findProperty($_GET["id"]) ?>
 
 <div class="text-center my-3">
     <h1 class="text-center">Sewa Pesanan</h1>
